@@ -22,7 +22,8 @@
     "react-loader-spinner": "^3.1.4",
     "react-scripts": "3.1.2",
     "styled-components": "^4.4.0",
-    "indicative": "7.2.3"
+    "indicative": "7.2.3",
+    "react-toastify": "^5.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -50,5 +51,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://503292.github.io/..."
+  "homepage": "https://503292.github.io/io-technologies/"
 }

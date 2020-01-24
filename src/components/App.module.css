@@ -1,6 +1,6 @@
 .wrapApp {
   height: 100vh;
-  max-width: 165rem;
+  /* max-width: 2640px; */
   display: flex;
   background-color: #10172f;
 }

@@ -1,10 +1,21 @@
 import React, { Component } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
 
 import { validateAll } from 'indicative/validator';
 import PropTypes from 'prop-types';
 import ErrorNotification from './ErrorNotification';
 
+import 'react-toastify/dist/ReactToastify.css';
 import css from './Login.module.css';
+
+const superUser = {
+  email: 'nikita@gmail.com',
+  password: '123456789',
+};
+
+const helpMessage = {
+  help: 'Щоб зайти введіть: email - nikita@gmail.com  | password - 123456789',
+};
 
 const rules = {
   email: 'required|email',
@@ -12,10 +23,10 @@ const rules = {
 };
 
 const messages = {
-  'email.required': 'Enter a valid email address.',
-  'email.email': 'Email is invalid',
-  'password.required': 'Enter a valid password.',
-  'password.min': 'Password must be at least 8 characters long',
+  'email.required': 'Емейл є обовязковим для заповнення',
+  'email.email': 'Емейл не правельний',
+  'password.required': 'Введіть правельний пароль',
+  'password.min': 'Пароль має мати більше 8 символів',
 };
 
 class Login extends Component {
@@ -36,9 +47,7 @@ class Login extends Component {
 
     validateAll({ email, password }, rules, messages)
       .then(data => {
-        console.log('success: ', data);
-
-        this.props.handleSignUp({ ...this.state });
+        console.log('success: ', data.password);
       })
       .catch(errors => {
         const formattedErrors = {};
@@ -51,6 +60,11 @@ class Login extends Component {
           errors: formattedErrors,
         });
       });
+    if (superUser.email !== email || superUser.password !== password) {
+      toast.error(helpMessage.help);
+      return;
+    }
+    this.props.handleSignUp({ ...this.state });
   };
 
   render() {
@@ -95,6 +109,7 @@ class Login extends Component {
         <button className={css.btnReset} type="button" onClick={handleReset}>
           Reset
         </button>
+        <ToastContainer autoClose={6500} position="bottom-right" />
       </div>
     );
   }

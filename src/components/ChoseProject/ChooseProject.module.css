@@ -11,7 +11,6 @@
   font-weight: 600;
   font-size: 4rem;
   margin-bottom: 2.5rem;
- 
 }
 .title span {
   font-weight: 400;
@@ -33,7 +32,6 @@
   padding: 2rem 0;
   outline: none;
   border: none;
-
   background-color: #10172f;
 }
 .select option:active,

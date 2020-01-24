@@ -11,12 +11,11 @@
   font-size: 3.125rem;
   display: flex;
   justify-content: center;
-  
 }
-.wrapLogo{
+.wrapLogo {
   position: relative;
 }
-.line{
+.line {
   position: absolute;
   top: 21%;
   left: -0.9375rem;
@@ -38,10 +37,9 @@
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
-.title{
+.title {
   padding: 0 0 0 0.625rem;
   margin: 0;
-
 }
 
 .discr {
@@ -54,7 +52,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.25rem 0 ;
+  padding: 1.25rem 0;
   width: 80%;
   margin: 0 auto;
 }
@@ -68,6 +66,11 @@
   text-transform: uppercase;
   font-weight: 600;
   font-size: 1.5rem;
+}
+.wrapBtn button:hover,
+.wrapBtn button:focus,
+.wrapBtn button:active {
+  filter: invert(15%);
 }
 .wrapBtn p {
   margin: 0;

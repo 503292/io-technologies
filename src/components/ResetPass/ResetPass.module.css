@@ -2,16 +2,14 @@
   height: 43.75rem;
   width: 36.125rem;
 }
-.btnArrow{
+.btnArrow {
   border: none;
   background-color: transparent;
   margin-bottom: 150px;
-
 }
 .arrow {
   font-size: 40px;
   color: #616983;
-  
 }
 .title {
   color: #fff;
@@ -50,4 +48,5 @@
 }
 .resetBtn:hover {
   filter: invert(100%);
+  transform: translateX(10px);
 }
