@@ -1,0 +1,67 @@
+.login {
+  width: 36.125rem;
+  height: 49.75rem;
+  color: #616983;
+}
+.title {
+  padding: 1.25rem 0 0.9375rem;
+  color: #fff;
+  margin: 0;
+  font-weight: 600;
+  font-size: 4rem;
+}
+.descr {
+  margin: 0;
+  font-size: 2rem;
+  margin-bottom: 1.875rem;
+}
+.wrapInput {
+}
+.wrapInput input {
+  width: 100%;
+  margin-bottom: 0.625rem;
+  border: none;
+  outline: none;
+  border-bottom: 0.0625rem solid #616983;
+  line-height: 1.875rem;
+  font-size: 2.125rem;
+  padding: 2.5rem 0;
+}
+
+.loginBtn {
+  margin: 0 auto;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    #126bd5,
+    #007bd9,
+    #0389da,
+    #2a97da,
+    #48a4d9
+  );
+  border: none;
+  border-radius: 0.4375rem;
+  color: #fff;
+  padding: 2.1875rem 0.75rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.625rem;
+  margin-bottom: 5rem;
+  margin-top: 3.625rem;
+}
+.loginBtn:hover {
+  filter: invert(100%);
+  transform: translateX(10px);
+}
+.reset {
+  font-size: 2rem;
+  margin: 0;
+  display: inline-block;
+}
+.btnReset {
+  font-size: 2rem;
+  border: none;
+  background-color: transparent;
+  color: #3a91e2;
+  display: inline-block;
+}

@@ -1,0 +1,54 @@
+.choose {
+  width: 40rem;
+  height: 43.75rem;
+  color: #616983;
+  text-align: center;
+}
+
+.title {
+  color: #fff;
+  margin: 0;
+  font-weight: 600;
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+ 
+}
+.title span {
+  font-weight: 400;
+}
+.descr {
+  margin: 0;
+  font-size: 2rem;
+  margin-bottom: 4.375rem;
+}
+.select {
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #7781a3;
+}
+.select option {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem 0;
+  outline: none;
+  border: none;
+
+  background-color: #10172f;
+}
+.select option:active,
+.select option:focus,
+.select option:hover {
+  color: #fff;
+}
+
+.select::-webkit-scrollbar {
+  width: 0.625rem;
+}
+.select::-webkit-scrollbar-track {
+  background-color: #10172f;
+}
+.select::-webkit-scrollbar-thumb {
+  border-radius: 0.3125rem;
+  background-color: #6b7083;
+}

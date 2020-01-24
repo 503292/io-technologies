@@ -1,0 +1,53 @@
+.resetPass {
+  height: 43.75rem;
+  width: 36.125rem;
+}
+.btnArrow{
+  border: none;
+  background-color: transparent;
+  margin-bottom: 150px;
+
+}
+.arrow {
+  font-size: 40px;
+  color: #616983;
+  
+}
+.title {
+  color: #fff;
+  margin: 0;
+  font-weight: 600;
+  font-size: 64px;
+  margin-bottom: 40px;
+}
+.input {
+  width: 100%;
+  margin-bottom: 72px;
+  padding: 40px 0;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #616983;
+  line-height: 30px;
+  font-size: 34px;
+}
+.resetBtn {
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    #126bd5,
+    #007bd9,
+    #0389da,
+    #2a97da,
+    #48a4d9
+  );
+  border: none;
+  border-radius: 7px;
+  color: #fff;
+  padding: 35px 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 26px;
+}
+.resetBtn:hover {
+  filter: invert(100%);
+}

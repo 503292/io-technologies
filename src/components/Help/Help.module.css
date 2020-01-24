@@ -1,0 +1,77 @@
+.help {
+  margin: 0 auto;
+  text-align: center;
+  z-index: 2;
+}
+
+.wrapTitle {
+  color: #a5bce4;
+  margin: 0;
+  padding: 1.25rem 0 1.875rem;
+  font-size: 3.125rem;
+  display: flex;
+  justify-content: center;
+  
+}
+.wrapLogo{
+  position: relative;
+}
+.line{
+  position: absolute;
+  top: 21%;
+  left: -0.9375rem;
+  width: 0.4375rem;
+  height: 2.875rem;
+  background-color: #fff;
+  border-radius: 0.3125rem;
+}
+.circleN {
+  color: white;
+  transform: rotate(315deg);
+  font-size: 3.125rem;
+}
+.circle {
+  color: white;
+  font-size: 1rem;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.title{
+  padding: 0 0 0 0.625rem;
+  margin: 0;
+
+}
+
+.discr {
+  margin: 0;
+  padding: 1.875rem 0 1.25rem 0;
+  font-size: 2.25rem;
+}
+
+.wrapBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem 0 ;
+  width: 80%;
+  margin: 0 auto;
+}
+.wrapBtn button {
+  background-color: rgb(125, 148, 212);
+  color: white;
+  border: none;
+  border-radius: 0.4375rem;
+  box-shadow: 0px 0px 0.0625rem 0px rgba(0, 0, 0, 0.2);
+  padding: 1.5rem 3.375rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.wrapBtn p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 2.25rem;
+  padding: 0 1.375rem;
+}

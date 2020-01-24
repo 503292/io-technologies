@@ -1,0 +1,36 @@
+.wrapApp {
+  height: 100vh;
+  max-width: 165rem;
+  display: flex;
+  background-color: #10172f;
+}
+
+.wrapHelp {
+  color: white;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.bgGradient {
+  position: absolute;
+  height: 300vh;
+  width: 100%;
+  background-image: linear-gradient(
+    to left bottom,
+    #6aa8dc,
+    #5d99da,
+    #5888d6,
+    #5c76d0,
+    #6563c6
+  );
+  border-radius: 500%;
+  right: 50%;
+}
+
+.wrapInput {
+  align-items: center;
+  color: white;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
